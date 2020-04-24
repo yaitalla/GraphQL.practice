@@ -1,0 +1,10 @@
+projects:
+  app:
+    schemePath: "scr/schema.graphql"
+    extensions:
+      endpoint:
+        default: "htpp://localhost:4444" 
+  prisma:
+    schemePath: "scr/generated/prisma.grphql"
+    extensions:
+      prisma: prisma.yml
